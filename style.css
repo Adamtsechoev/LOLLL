@@ -1,0 +1,211 @@
+*,html,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 1520px;
+    background: linear-gradient(3deg, rgb(0, 3, 193), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    margin: 0;
+    color: rgb(57, 57, 57);
+    
+}
+
+header .shapka{
+    padding-top: 4px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+    padding-top: 10px;
+    width: 93px;
+    height: 100%;
+    background: url(../logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.shapka nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    
+}
+.logo-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+.shapka nav ul li a{
+    text-transform: uppercase;
+    color: rgb(57, 57, 57);
+
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.shapka nav ul li{
+    height: 100%;
+    position: relative;
+}
+nav{
+    margin-left: 200px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+nav ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(57, 57, 57);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+nav ul li:hover::after{
+    width: 100%;
+    transition: all 0.4s;
+}
+.text-box{
+    border-bottom: #fff solid 1px;
+    padding-left: 10px;
+    padding-top: 70px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20px;
+}
+main article .p{
+    width: 50%;
+    height: 50%;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(57, 57, 57);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.lorem{
+    display: block;
+    color: rgb(57, 57, 57);
+
+    font-family: 'Nunito', sans-serif;
+    width: 900px;
+
+}
+hr{
+    width: 100%;
+    height: 2px;
+    border: 1px solid black;
+    background-color: black;
+
+}
+.nows{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border: solid 2px white;
+    border-radius: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.news-art{
+    padding: 50px;
+    width: 1500px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: start;
+    overflow-y: scroll;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    box-shadow: inset 0 0 20px 1px rgba(0, 0, 0, 0.365);
+    border: 1px solid white;
+}
+h4{
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-left: 90px;
+    color: rgb(57, 57, 57);
+
+    font-size: 40px;
+    font-family: 'Nunito', Impact, sans-serif ;
+    font-weight: 100;
+}
+.news-art div{
+    font-size: 30px;
+    max-width: 33%;
+    height: min-content;
+    background-color: rgba(255, 255, 255, 0.888);
+    font-family: 'Nunito', Impact, sans-serif ;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.518);
+    display: flex;
+    flex-direction: column;
+
+}
+.news-art::-webkit-scrollbar{
+    max-height: 30px;
+    border-radius: 50px;
+    width: 7px;
+    background-color: rgb(255, 255, 255);
+    scroll-snap-type: mandatory;
+}
+.news-art::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.32);
+    border-radius: 50px;
+}
+h4{
+    margin-top: 0;
+}
+.news-art::-webkit-scrollbar-track{
+    background-color: rgb(225, 225, 225);
+    border-radius: 30px;
+    
+}
+.text-box .p{
+    font-size: 60px;
+    width: 1200px;
+}
+.text-box {
+    height: 500px;
+}
+
+.foot{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.573)k;
+}
+body{
+}
+button{
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid black;
+}
+button:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color: rgb(58, 58, 255);
+}
